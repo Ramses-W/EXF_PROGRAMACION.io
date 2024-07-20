@@ -1,0 +1,58 @@
+/* Estilos para la galería */
+body {
+    background-color: beige;
+}
+main {
+    padding: 10px;
+    border: 1px solid;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+footer {
+  text-align: center;
+}
+#fo_img {
+  width: 5%;
+  border-radius: 0;
+}
+img {
+    width: 80%;
+    border-radius: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.details {
+  margin-top: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.8;
+}
